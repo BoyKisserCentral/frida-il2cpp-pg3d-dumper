@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "lib": ["ESNext"],
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "sourceMap": true,
+      "typeRoots": ["./node_modules/@types", "./node_modules/frida-il2cpp-bridge/types", "./node_modules/@types/frida-gum"]
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
