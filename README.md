@@ -5,7 +5,11 @@ Allows dumping Pixel Gun 3D using [https://github.com/vfsfitvnm/frida-il2cpp-bri
 ### Requirements:
 - [Node.js](nodejs.org/en/download)
 - [Python](https://www.python.org/downloads/)
-- ``pip install frida-tools``
+- Add frida to PATH
+
+### Setup:
+- ``npm i``
+- ``npm run install``
 
 ### Running:
-``frida -n "Pixel Gun 3D.exe" -l ./src/main.ts``
+``npm start``
