@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "python -m pip install frida-tools",
-    "start": "frida -n \"Pixel Gun 3D.exe\" -l ./src/main.ts",
+    "start": "frida -n \"Pixel Gun 3D.exe\" -l ./src/main.ts -q",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
